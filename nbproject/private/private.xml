@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/Users/ayeshjayasekara1/GitRepos/SecureBanking-Solution/Bank%20de%20Semicolon/web/WEB-INF/dispatcher-servlet.xml</file>
+            <file>file:/Users/ayeshjayasekara1/GitRepos/SecureBanking-Solution/Bank%20de%20Semicolon/src/java/Controllers/HomeController.java</file>
+            <file>file:/Users/ayeshjayasekara1/GitRepos/SecureBanking-Solution/Bank%20de%20Semicolon/web/WEB-INF/jsp/index.jsp</file>
+            <file>file:/Users/ayeshjayasekara1/GitRepos/SecureBanking-Solution/Bank%20de%20Semicolon/web/WEB-INF/web.xml</file>
+        </group>
     </open-files>
 </project-private>

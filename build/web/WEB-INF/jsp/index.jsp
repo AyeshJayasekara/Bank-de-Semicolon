@@ -5,52 +5,83 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
-        
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Bootstrap -->
-        <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap-theme.min.css">
+        <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/logincss.css" rel="stylesheet">
+        
            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
-        
-        
-        
         <title>Welcome</title>
     </head>
     
-    
     <body background="${pageContext.request.contextPath}/resources/images/back.jpg" >
+        
+        
+        
+ 		<div class="container">
+	    
+		<div class="col-sm-8 col-sm-offset-2 main">
+		<div class="col-sm-6 left-side">
+		<h1>Semicolon<br>Bank</h1>
+		<p>Welcome to online banking service of Semicolon Bank. Bank that is yours!</p>
+		<br>
+		<p>Have you got a question to ask?</p>
+		<a class="fb" href="http://deepak646.blogspot.in/" target="_blank">Read our FAQ</a>
+		<a class="tw" href="http://deepak646.blogspot.in/" target="_blank">Contact Support</a>
+
+		</div><!--col-sm-6-->
+		
+		<div class="col-sm-6 right-side">
+		<h1>Login</h1>
+		<p>Don't have an account? Visit one of our branches to get an account.</p>
+		
+<!--Form with header-->
+<div class="form">
+
+
+        <div class="form-group">
+		    <label for="form2">Your email</label>
+            <input type="text" id="form2" class="form-control">
+            
+        </div>
+
+        <div class="form-group">
+		    <label for="form4">Your password</label>
+            <input type="password" id="form4" class="form-control">
+           
+        </div>
+
+        <div class="text-xs-center">
+            <a href="http://deepak646.blogspot.in/" target="_blank" class="btn btn-deep-purple">Login</a>
+        </div>
+
+
+</div>
+<!--/Form with header-->
+
+		</div><!--col-sm-6-->
+		
+		
+        </div><!--col-sm-8-->
+        
+        </div><!--container-->
+        
+        
+        
+        
+        
         <div class="carousel-caption">
             <h1 class = "warning">${printme}</h1>
-         
         </div>
-                <script src="https://use.typekit.net/ayg4pcz.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+                
+    
 
-    <div class="container">
-    <h1 class="welcome text-center">Welcome to <br> Ice Code</h1>
-        <div class="card card-container">
-        <h2 class='login_title text-center'>Login</h2>
-        <hr>
-
-            <form class="form-signin">
-                <span id="reauth-email" class="reauth-email"></span>
-                <p class="input_title">Email</p>
-                <input type="text" id="inputEmail" class="login_box" placeholder="user01@IceCode.com" required autofocus>
-                <p class="input_title">Password</p>
-                <input type="password" id="inputPassword" class="login_box" placeholder="******" required>
-                <div id="remember" class="checkbox">
-                    <label>
-                        
-                    </label>
-                </div>
-                <button class="btn btn-lg btn-primary" type="submit">Login</button>
-            </form><!-- /form -->
-        </div><!-- /card-container -->
-    </div><!-- /container -->
 
     </body>
 </html>
